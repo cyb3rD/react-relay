@@ -8,7 +8,8 @@ This is my study project for learning React.js and some necessary tools
 - Webpack - for managing dependencies, an bundle all to one asset
 - Babel - for running ES6  
 
-##Up & Running
+##Up & Running in Development mode
 * `npm install`
 * `nodemon --exec npm run start server.js`
+* `webpack -w`
 * Open browser with address [localhost:7000](http://127.0.0.1:7000)
