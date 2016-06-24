@@ -15,7 +15,7 @@ let API = {
         let resp = request.responseText;
         console.log('Server response: ', JSON.parse(resp));
         //
-        ServerActions.receiveLinks(resp);
+        ServerActions.receiveLinks(JSON.parse(resp));
       } else {
         // We reached our target server, but it returned an error
         throw "Error from the server!"
