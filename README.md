@@ -10,6 +10,6 @@ This is my study project for learning React.js and some necessary tools
 
 ##Up & Running in Development mode
 * `npm install`
-* `nodemon --exec npm run start server.js`
+* `nodemon --exec npm run start`
 * `webpack -w`
 * Open browser with address [localhost:7000](http://127.0.0.1:7000)

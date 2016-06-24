@@ -19,6 +19,8 @@ MongoClient.connect(server.mongodbConnect, (err, database) => {
 
 });
 
+
+// API endpoint to reaad data from MongoDB
 app.get("/data/links", (req, res) => {
 
   db.collection("links").find({}).toArray((err, links) => {
